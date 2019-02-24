@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MyCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="1024"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="1024"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zN-c8-xQQ">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="1024"/>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qoT-B0-kF2">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="1024"/>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5zN-c8-xQQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5ik-Zq-J9H"/>
+                <constraint firstItem="5zN-c8-xQQ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="DJK-yo-n6H"/>
+                <constraint firstItem="qoT-B0-kF2" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="HtP-c3-O54"/>
+                <constraint firstItem="qoT-B0-kF2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VIT-HB-py2"/>
+                <constraint firstItem="5zN-c8-xQQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aSs-7w-CNT"/>
+                <constraint firstItem="qoT-B0-kF2" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="fQ5-e6-g1V"/>
+                <constraint firstItem="5zN-c8-xQQ" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="jsc-0p-N3v"/>
+                <constraint firstItem="qoT-B0-kF2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xFi-GB-Owc"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="qoT-B0-kF2"/>
+                </mask>
+            </variation>
+        </collectionViewCell>
+    </objects>
+</document>
